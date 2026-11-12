@@ -1,6 +1,6 @@
 # Kubernetes Operations Lab
 
-Operate a small Python HTTP service on a dedicated local Kubernetes cluster. Demonstrate readiness-based traffic eligibility, pod replacement, replica scaling, rolling configuration changes, and recovery from a bad image rollout.
+I designed this lab to run a small Python HTTP service in a dedicated local Kubernetes cluster and demonstrate readiness-based traffic eligibility, pod replacement, replica scaling, rolling configuration changes, and recovery from a failed image rollout.
 
 **Validation status:** 12 HTTP service tests and 12 static manifest checks passed locally. Docker and Kubernetes were unavailable in the build workspace, so the container build and cluster exercises have **not yet been executed there**. The included GitHub Actions workflow runs those checks in a temporary kind cluster after upload. Treat cluster behavior as pending verification until that job succeeds.
 
